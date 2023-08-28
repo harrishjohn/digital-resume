@@ -1,0 +1,396 @@
+        *
+        {
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+            
+        }
+        body{
+            width: 100%;
+        }
+        .portfolio
+        {
+            background-color:rgb(101, 141, 146);
+            height: 80px;
+            border: 1.5px solid black;
+        }
+        .name
+        {
+            color: white;
+            text-align: center;
+            padding: 10px;
+            
+        }
+        .name1
+        {
+            background-color: white;
+            height: 75px;
+            font-size: 18px;
+            padding-inline: 40px;
+            box-sizing: border-box;
+            margin-top: 30px;
+        }
+        .about{
+            background-color: white;
+            height: 350px;
+            box-sizing: border-box;
+            
+        }
+        .about p{
+            height: 275px;
+            line-height: 50px;
+            font-size: 25px;
+            padding-inline: 40px;
+            text-align: justify;
+        }
+        section{
+            background-color: forestgreen;
+            /* height: 700px;   */
+            display: flex;
+            
+        }
+        .edu
+        {
+            background-color: #E2F6CA;
+            height: 800px;
+            flex: 30%;
+            
+        }
+        .edu1
+        {
+            background-color:#E2F6CA;
+            height: 800px;
+            flex: 50%;   
+        }
+        .education
+        {
+            color: black;
+            margin-top: 40px;
+            text-indent: 40px;
+            font-size: 40px;
+            
+        }
+        .container
+        {
+            color: black;
+            padding: 30px;
+            list-style: none;
+            text-indent: 10px;
+            line-height: 50px;
+            font-size: 20px;
+            font-size: 25px;
+        }
+        .software
+        {
+            color: black;
+            margin-top: 40px;
+            text-indent: 40px;
+            font-size: 40px;
+            
+        }
+        ul
+        {
+            color: black;
+            padding: 30px;
+            list-style: none;
+            text-indent: 10px;
+            line-height: 50px;
+            font-size: 25px;
+        }
+        .workshop
+        {
+            color: black;
+            margin-top: 40px;
+            text-indent: 60px;
+            font-size: 40px;
+        }
+        .topic
+        {
+            
+            height: 43px;
+            
+            margin-top: 51px;
+        }
+        .topic h3{
+            color: black;
+            text-indent: 70px;
+            font-size: 30px;
+        }
+        .para{
+            
+            height: 150px;
+            margin-top: 51px;
+            line-height: 50px;
+            font-size: 25px;
+            padding-inline: 55px;
+            box-sizing: border-box;
+            text-align: justify;
+        }
+        .intern
+        {
+            color: black;
+            margin-top: 50px;
+            text-indent: 60px;
+            font-size: 40px;
+        }
+        .topic1
+        {
+        
+            height: 43px;
+            margin-top: 51px;
+        }
+        .topic1 h3{
+            color: black;
+            text-indent: 60px;
+            font-size: 30px;
+        }
+        .para1{
+
+            height: 150px;
+            margin-top: 51px;
+            line-height: 50px;
+            font-size: 25px;
+            padding-inline: 45px;
+            box-sizing: border-box;
+            text-align: justify;
+        }
+
+            .exp {
+                display: flex;
+                background-color: #F2EE9D;
+                flex:auto;
+                flex-direction: column;
+            }
+            .column {
+                padding: 20px;
+                flex: 1;
+            }
+            .column:nth-child(1) {
+                flex: 30%;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .column:nth-child(2) {
+                flex: 50%;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            h1 {
+                font-size: 24px;
+                margin: 10px;
+                font-size: 50px;
+            }
+            h2 {
+                font-size: 30px;
+                margin-top: 20px;
+                text-indent: 10px;
+            }
+            p {
+                font-size: 25px;
+                line-height: 2;
+                text-align: justify;
+                margin-left: 16px;
+            }
+            
+
+    
+        .container1 {
+            /* display: flex; */
+            /* justify-content: space-between; */
+            
+            background-color: burlywood;
+            height: 1200px;
+            padding: 8px;
+        }
+        .column1 {
+            
+            margin-top:100px;
+            margin-left: 10px; 
+            /* width: 420px; */
+            height:600 px;
+            background-color: white;
+            border: 1px solid black;
+            box-sizing: border-box;
+            margin-right: 10px;
+        }
+        .column1:last-child {
+            margin-right: 10; 
+        }
+    .column1 h1
+    {
+        font-size: 25px;
+        text-align: center;
+        
+    }
+    .column1 p
+    {
+        padding: 25px;
+        margin-left: -3px;
+    }
+        .projects
+        {
+            background-color: bisque;
+            height: 1500px;
+            width: 100%;
+            flex-direction: column;
+            /* padding: 60px; */
+        }
+        .sp{
+            
+            font-size: 45px;
+            margin: 40px 45px;
+        }
+        .title
+        {
+            
+            margin: 40px 45px;
+            font-size: 30px;
+            /* padding-left: 5px; */
+        }
+        .projects p
+        {
+        
+        margin-left: 50px;
+        font-size: 25px;
+        line-height: 60px;
+        }
+
+        .extra {
+            
+            background-color: #CEE5D0;
+            height: 750px;
+            font-size: 25px;
+            padding: 1px;
+        }
+        .extra h1
+        {
+            text-align: center;
+        }
+
+        .slide-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 50px;
+            margin-left: 30px;
+        }
+
+        .slide {
+            width: 100%;
+            display: none;
+        }
+
+        .slide.active {
+            display: block;
+        }
+
+        .slide-content {
+            padding: 20px;
+            
+            
+        }
+        .slide-content h2 {
+            margin-top: 10px;
+            
+        }
+        .slide-content p
+        {
+            padding-top: 55px;
+            font-size: 25px;
+        }
+        .slide-content li
+        {
+            font-size:25px ;
+        }
+
+        .slide-button {
+            cursor: pointer;
+            text-align: center;
+        
+        }
+        .points {
+            padding-top: 75px;
+            font-size: 35px;
+            line-height: 80px;
+        }
+        .footer {
+            height: 400px;
+            background-color: #E9DAC1;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 25px;
+            
+        }
+
+        .footer h3 {
+            margin: 0;
+            padding-bottom: 10px;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .icon-link {
+            color: white;
+            text-decoration: none;
+            
+        }
+        .icon-link img
+        {
+            height: 50px;
+            width:50px
+        }
+        .icon-link1 img
+        {
+            height: 60px;
+            width:60px
+        }
+        .sec
+        {
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            height: 1200px;
+            width: 100%;
+            flex:auto;
+            flex-direction: column;
+        }
+        .image-row {
+            display: flex;
+            
+        }
+
+        .image-column {
+            flex-basis: 50%; 
+            margin: 50px;
+            padding: 30px;
+        }
+
+        .image {
+            max-height: 140px;
+            object-fit: cover;
+            
+        }
+        .skills
+        {
+            margin-top: 50px;
+            padding-left: 50px;
+            font-size: 50px;
+        }
+
+
+
